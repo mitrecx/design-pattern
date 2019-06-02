@@ -6,14 +6,16 @@ import java.io.IOException;
 import java.io.InputStream;
 
 /**
+ * 
  * @author cx
- * @time 2019Äê6ÔÂ1ÈÕ ÏÂÎç3:44:23
+ * @time 2019å¹´6æœˆ2æ—¥, ä¸Šåˆ12:18:44
+ *
  */
 public class Test {
     public static void main(String[] args) {
         int c;
         try {
-            InputStream in = new LowerCaseInputStream(new BufferedInputStream(new FileInputStream("C:\\Users\\cx141\\design-pattern\\decorator\\src\\main\\java\\decorator\\java\\f.txt")));
+            InputStream in = new LowerCaseInputStream(new BufferedInputStream(new FileInputStream("./src/main/java/decorator/java/f.txt")));
             while ((c = in.read()) >= 0) {
                 System.out.print((char) c);
             }
