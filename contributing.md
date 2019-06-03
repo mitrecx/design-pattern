@@ -1,2 +1,4 @@
 contributing:
 Mitre
+\ncherry
+\nOwen
