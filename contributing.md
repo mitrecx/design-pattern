@@ -1,4 +1,4 @@
 contributing:
 Mitre
-\ncx
-\nCherry
+cx
+Cherry
