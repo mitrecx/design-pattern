@@ -1,1 +1,1 @@
-no licence 
+没有 许可
