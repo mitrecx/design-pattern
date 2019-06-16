@@ -8,7 +8,9 @@ import java.rmi.RemoteException;
 import proxy.test.remote.MyRemote;
 
 /**
+ * 
  * @author cx
+ * @time 2019年6月16日 下午11:13:14
  */
 public class MyRemoteClient {
     public static void main(String[] args) {
